@@ -4,31 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinicius Queiroz</Q></title>
+    <title>Vinicius Queiroz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p id="name"><b>Vinicius Queiroz</b></p>
-    <img id="picture" src="./imgs/img1.jpg" height="200px" alt="Selfie on daylight">
-    <p id="description">A full stack web development student on Trybe. Currently living in Ceará, Brazil, 20yo.</p>
-    <p id="skills">Skills</p>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li><b>Javascript</b></li>
-        <li>NodeJS</li>
-        <li>Machine Learning</li>
-        <li>Python</li>
-    </ul>
-    <a href="#picture">Picture link</a>
-    <a href="https://migrationology.com/" target="_blank">A blog that i like</a>
+    <div class="container">
+        <h2 id="name"><b>Vinicius Queiroz</b></h2>
+        
+        <img id="picture" src="./imgs/img1.jpg" alt="Selfie on daylight">
+        
+        <h3 class="section-header">About</h3>
+        <p id="description">A full stack web development student on Trybe. Currently living in Ceará, Brazil, 20yo.</p>
+       
+        <h3 class="section-header">Skills</h3>
+        <ul id="skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li><b>Javascript</b></li>
+            <li>NodeJS</li>
+            <li>Machine Learning</li>
+            <li>Python</li>
+        </ul>
+        
+        <div class="links">
+            <h3 class="section-header">Links</h3>
+            <a href="#picture">Picture link</a>
+            <a href="https://migrationology.com/" target="_blank">A blog that i like</a>
+        </div>
 
-    <!--Summary-->
-    <h2>Page summary</h2>
-    <ul>
-        <li><a href="#name">Name</a></li>
-        <li><a href="#picture">Picture</a></li>
-        <li><a href="#description">Description</a></li>
-        <li><a href="#skills">Skills</a></li>
-    </ul>
+        <!--Summary-->
+        <h3 class="section-header">Page summary</h3>
+        <ul id="summary">
+            <li><a href="#name">Name</a></li>
+            <li><a href="#picture">Picture</a></li>
+            <li><a href="#description">Description</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+    </div>
 </body>
 </html>
