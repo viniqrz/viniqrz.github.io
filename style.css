@@ -23,7 +23,20 @@ ul {
     display: block;
 }
 
+@keyframes appear {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        /* transform: translateY(100%); */
+    }
+}
+
 .container {
+    transition: all 1s;
+    animation: appear 0.5s forwards;
     margin: 0 auto;
     max-width: 400px;
     background-color: #292f36;
@@ -50,6 +63,7 @@ ul {
 #description {
     width: 80%;
     margin: 10px auto;
+    margin-bottom: 80px;
     /* margin-bottom: 50px; */
     text-align: justify;
     line-height: 25px;
@@ -58,7 +72,7 @@ ul {
 .section-header {
     margin: 30px auto;
     /* margin-top: 90px; */
-    padding: 5px;
+    padding: 10px;
     width: 80%;
     /* border-radius: 10px; */
     cursor: pointer;
@@ -104,6 +118,7 @@ ul {
 .links {
     margin: 0 auto;
     margin-top: 230px;
+    margin-bottom: 100px;
     /* margin-bottom: 80px; */
     width: 80%;
     display: block;
